@@ -1,0 +1,61 @@
+MIXED
+python main.py
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 1
+Enter a word or sentence: Hello World! 123
+
+--- ANALYSIS RESULT ---
+Input text        : Hello World! 123
+Vowels            : 3
+Consonants        : 7
+Total letters     : 10
+Ignored characters: 6
+Unique vowels     : e, o
+Unique consonants : d, h, l, r, w
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 2
+Thank you for using the counter!
+
+
+VALIDATION
+python main.py
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 9
+Invalid choice! Please enter 1 or 2.
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 1
+Enter a word or sentence:    
+Please enter at least one non-space character.
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 1
+Enter a word or sentence: AEIOUaeiou
+
+--- ANALYSIS RESULT ---
+Input text        : AEIOUaeiou
+Vowels            : 10
+Consonants        : 0
+Total letters     : 10
+Ignored characters: 0
+Unique vowels     : a, e, i, o, u
+Unique consonants : None
+
+===== VOWEL & CONSONANT COUNTER =====
+1. Analyze text
+2. Exit
+Enter your choice (1-2): 2
+Thank you for using the counter!
